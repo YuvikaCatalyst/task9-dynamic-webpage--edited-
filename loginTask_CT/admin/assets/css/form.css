@@ -1,0 +1,214 @@
+*body{box-sizing: border-box;};
+body{margin:0;
+padding:0;}
+form{
+padding:10px 5px;
+width:600px;
+margin-top:100px;
+margin-left:auto;
+margin-right:auto;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+display:flex;
+justify-content: center;
+align-items: center;}
+input[type="text"] {
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width:100%;
+    padding:10px;
+}
+input[type="submit"]{
+    width:100%;
+    cursor: pointer;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding:10px;
+}
+input[type="password"]{
+    width:100%;
+    cursor: pointer;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding:10px;
+}
+a input[type="button"]
+{
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width:100%;
+    padding:10px;
+}
+input[type="file"]{
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding:10px;
+width:18%;
+}
+.logoFile,.logoText{
+    display:none;
+}
+.submit{
+  padding:10px;
+  background-color: #1969ff;
+  text-decoration: none;
+}
+.submit:hover{
+  background-color: #fff;
+  color:#1969ff;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  @font-face {
+    font-family: manrope;
+    src: url("Manrope/Manrope-VariableFont_wght.ttf");
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 1728px;
+    margin: auto;
+    position: relative;
+  }
+  ul,
+  p {
+    margin: 0;
+    padding: 0;
+  }
+  .primary {
+    background-color: #1969ff;
+    color: #fff;
+    padding: 20px 16px;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: all ease-in-out 0.6s;
+  }
+  .primary:hover {
+    background-color: #fff;
+    color: #1969ff;
+    cursor: pointer;
+  }
+  header {
+    background-color: #212122;
+  }
+  .header_wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    padding: 22px 0;
+    margin: auto;
+    background: linear-gradient(
+        90.29deg,
+        rgba(209, 209, 214, 0.08) 0.05%,
+        rgba(103, 116, 139, 0.08) 100%
+      ),
+      linear-gradient(
+        90.21deg,
+        rgba(212, 225, 236, 0.16) 0%,
+        rgba(103, 116, 139, 0.16) 100%
+      );
+    background-color: #000;
+    border-radius: 0 0 20px 20px;
+    border-bottom: 1px solid #d4e1ec29;
+  }
+  
+  .logo_img {
+    height: 32px;
+    width: 124px;
+  }
+  .header_list ul li a {
+    font-family: manrope;
+    display: flex;
+    color: #fff;
+    text-decoration: none;
+    gap: 10px;
+    padding: 10px 16px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 48px;
+    transition: all ease-in-out 0.4s;
+  }
+  .header_list ul li a:hover{
+      color:#1969ff;
+      cursor: pointer;
+  }
+  .header_list ul {
+    display: flex;
+    list-style-type: none;
+  }
+  .landing_section {
+    background-color: #212122;
+    padding-top: 25px;
+  }
+  .landing_img {
+    max-width: 1280px;
+    margin: auto;
+  }
+  .landing_background {
+    height: 640px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+  }
+  .landing_heading {
+    font-weight: 700;
+    font-family: manrope;
+    font-size: 96px;
+    color: #fff;
+    position: absolute;
+    bottom: 52%;
+    left: 26%;
+    z-index: 3;
+  }
+  .landing_wrapper {
+    max-width: 1280px;
+    margin: auto;
+    position: relative;
+  }
+  .gradient {
+    background: linear-gradient(to right, #65b3df, #1969ff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  .landing_text {
+    font-family: manrope;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 32px;
+    position: absolute;
+    z-index: 3;
+    bottom: 43%;
+    width: 36%;
+    text-align: center;
+    left: 31%;
+  }
+  .primary {
+    background-color: #1969ff;
+    color: #fff;
+    padding: 20px 16px;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: all ease-in-out 1s;
+  }
+  .primary:hover {
+    background-color: #fff;
+    color: #1969ff;
+    cursor: pointer;
+  }
+  .landing_button {
+    position: absolute;
+    z-index: 3;
+    right: 42%;
+    top: 67%;
+  }
+  
